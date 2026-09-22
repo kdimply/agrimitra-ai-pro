@@ -1,5 +1,5 @@
 # AgriMitra AI Pro 🌾🤖
-[![CI](https://github.com/Rishik-sai/agrimitraai/actions/workflows/ci.yml/badge.svg)](https://github.com/Rishik-sai/agrimitraai/actions/workflows/ci.yml)
+
 > **Multi-RAG Agricultural Intelligence System for Indian Farmers**
 
 AgriMitra AI Pro is a state-of-the-art agricultural advisory system designed to empower Indian farmers. By combining a **FastAPI backend** running a **Multi-Agent Retrieval-Augmented Generation (RAG)** pipeline with a responsive **React (Vite) frontend**, AgriMitra AI Pro delivers real-time weather advisories, market price predictions, government scheme navigation, and multimodal crop disease diagnosis.
@@ -184,7 +184,5 @@ These honest scores were evaluated strictly across the full 30-pair test set usi
 2. Vercel will automatically detect the React build and apply the `frontend/vercel.json` routing rules for the SPA.
 3. Important: Ensure you add a `.env` variable in Vercel or point your frontend to your new Render backend URL.
 
-### Running Tests
 
-## 👨‍💻 Profile
-[Rishik-sai](https://github.com/Rishik-sai)
+

@@ -742,9 +742,10 @@ async def scan_endpoint(request: Request, file: UploadFile = File(...), lang: st
         from langchain_groq import ChatGroq
         from langchain_core.messages import HumanMessage
         
-        # Use meta-llama/llama-4-scout-17b-16e-instruct for multimodal tasks
+        
+        # Use current Groq multimodal model for leaf image analysis
         llm = ChatGroq(
-            model_name="meta-llama/llama-4-scout-17b-16e-instruct",
+            model_name="qwen/qwen3.8-27b",
             groq_api_key=api_key,
             temperature=0.2,
         )
